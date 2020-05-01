@@ -12,49 +12,48 @@ body
 
 header
 {
-	display:flex;
-	justify-content:space-between;
-	align-items:flex-end;
-	margin-top:0px;
-
-	position:fixed;
-	height:80px;
+	top:0px;
+	padding-top:5px;
 	background-color:white;
 	width:100%;
-
+	position:fixed;
 	padding-bottom:10px;
+	display:flex;
+	flex-direction: row;
+	align-content: space-between;
 }
 
 #logo
 {
+	height:80px;
+	width:80px;
+	background: url('../images/photo.jpeg') no-repeat;
+	background-size: contain;
 	display:flex;
-	flex-direction:row;
-	align-items:baseline;
+	align-self:baseline;
 }
 
-#logo img
- {
- 	height:50px;
- }
 
 nav
 {
 	margin-right:5px;
 	display:flex;
-	flex-direction:row;
+	align-self:flex-end;
+	align-content: flex-end;
 }
 
 nav ul
 {
 	list-style-type:none;
 	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 
 }
 
 nav ul li
 {
 	margin-right: 15px;
-	flex-wrap: wrap;
 
 }
 
@@ -73,10 +72,44 @@ nav a:hover
     border-bottom: 3px solid LightBlue;
 }
 
+section
+{
+	margin-top:100px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+article
+{
+
+	padding-right: 5px;
+	width:80%;
+
+}
+
+aside
+{
+	padding-left:5px;
+}
+
+aside ul
+{
+	list-style-type:none;
+	padding-left:0px;
+}
+
+aside ul li
+{
+	list-style-type:none;
+	
+
+}
+
 #banniere
 {
 	text-align:center;
-	padding-top:80px;
+
 
 }
 
@@ -110,39 +143,7 @@ h3
 }
 
 
-section
-{
-	margin-top:80px;
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-}
 
-article
-{
-
-	padding-right: 5px;
-	width:80%;
-
-}
-
-aside
-{
-	padding-left:5px;
-}
-
-aside ul
-{
-	list-style-type:none;
-	padding-left:0px;
-}
-
-aside ul li
-{
-	list-style-type:none;
-	
-
-}
 
 @media screen and (max-width: 480px) {
 	body
