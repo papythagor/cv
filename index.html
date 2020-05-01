@@ -25,10 +25,16 @@
 		</div>
 		<section>
 			<article>
-				<h1 id="experiences">Mon expérience</h1>
+				<div id="experiences">
+
+
+
+				</div>
+				
+				
 				<div class="experience">
-					<h2>Société : Volevatch SA</h2>
-					<h2>Emploi : Référent de production en charge des certifications et de l'informatique</h2>
+					<h2>Société : </h2>
+					<h2>Emploi : </h2>
 					<h3>Certifications</h3>
 					<ul>
 						<li>Obtention et entretien des certificats ACS pour les produits vendus en France.</li>
@@ -199,6 +205,42 @@
 
 			</div>
 		</footer>
+		<script>
+
+			var lirecv='https://github.com/papythagor/cv/blob/ajoutjson/json/bdd.json';
+			var request = new XMLHttpRequest();
+			request.open('GET',lirecv,true);
+			request.responseType = 'json';
+			request.send();
+			request.onload = function() {
+			  	var cv = request.response;
+			  	remplirExperiences(cv);
+			}
+
+			function remplirExperiences(jsonObj) {
+
+				const experiences = jsonObj['experiences'];
+				
+				var expElement=document.getElementById('experiences');
+
+				console.log(experiences.length);
+
+				for(let i=0;i<experiences.length;i++){
+					const myH2=document.createElement('h2');
+
+					myH2.textContent='Société : ' + experiences[i].entreprise;
+					expElement.appendChild(myH2);
+
+
+				}
+
+
+
+			}
+
+
+		</script>
+
 	</body>
 
 </html>
