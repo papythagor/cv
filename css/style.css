@@ -94,8 +94,7 @@ h3
 {
 	margin-top:10px;
 	border-top: 1px solid;
-	display:flex;
-	flex-direction: column;
+
 
 }
 
@@ -111,25 +110,20 @@ article
 {
 	display:flex;
 	margin-right: 5px;
-	flex-wrap:wrap;
+	flex-direction:column;
 	min-width:300px;
-
 }
 
 aside
 {
 	display:flex;
+	flex-direction:column;
 	margin-left:5px;
-	flex-wrap: wrap;
-
-
 }
 
 aside ul
 {
 	list-style-type:none;
-	display:flex;
-	flex-direction: column;
 	padding-left:0px;
 }
 
@@ -137,7 +131,7 @@ aside ul li
 {
 	list-style-type:none;
 	display:flex;
-	flex-direction: column;
+	
 
 }
 
