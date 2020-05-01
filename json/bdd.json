@@ -4,31 +4,28 @@
 	      	"dates": "oct. 2017 - aujourd'hui",
 	      	"entreprise": "Volevatch SA",
 	      	"emploi": "Référent en charge des certifications et de l'informatique",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": 
+	        	[ {
 	          		"categorie": "Certifications",
 	          		"détail": [
 	            		"Obtention et entretien des certificats ACS pour les produits vendus en France.",
 	            		"Obtention de entretien des certificats WRAS pour une liste de produits destinés à l'Angleterre.",
 	            		"Renouvellement et entretien de certification NSF pour les Etats-Unis"
 	          		]
-	        	},
-	        	"2": {
+	        	},{
 	          		"categorie": "Co-responsabilité de site",
 	         		"détail": [
 	            		"Co-responsabilité d'un site de 40 salarié.",
 	            		"Participation aux entretiens individuels, aux décisions d'investissements, aux entretiens d'embauche, aux gestions de conflits,..."
 	          		]
-	        	},
-	        	"3": {
+	        	},{
 	        		"categorie" : "Informatique",
 	        		"détail":[
 	        			"Responsable parc informatique.",
 	        			"Développement de logiciels vba et php/mysql.",
 	        			"Pilote projet Erp Cegid Pmi. Développement d'outils pour passage de NAVISION à Cegid."
 	        		]
-	        	},
-	        	"4":{
+	        	},{
 	        		"categorie":"Bureau d'étude",
 	        		"détail":[
 	        			"Participation à la Qualité. ",
@@ -36,46 +33,41 @@
 	        			"Rédaction de notices techniques"
 	        		]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "avr. 2016 - oct. 2017",
 	      	"entreprise": "PDC Europe",
 	      	"emploi": "Responsable parc informatique et rédacteur technique",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": [
+	      		{
 		          	"categorie": "Rédaction technique",
 		          	"détail": [
 		            	"Rédaction des manuels installation, utilisation, maintenance de manchonneuses automatiques (anglais/français)",
 		            	"Réalisation des catalogues illustrés via Solidworks.",
 		            	"Réalisation de support de formation"
 		          	]
-	        	},
-	        	"2": {
+	        	},{
 		          	"categorie": "Dessin industriel",
 		          	"détail": [
 		            	"Adaptation de systèmes existants pour de nouvelles applications sous Solidworks. Création de modèles 3D, plans d'ensembles, de détails"
 		          	]
-		        },
-	        	"3": {
+		        },{
 	        		"categorie" : "SLI",
 	        		"détail":[
 	        			"Création et gestion des listes de pièces de rechange.",
 	        			"Création de kits de pièces (étude besoin/coût/délais)"]
-	        	},
-	        	"4":{
+	        	},{
 	        		"categorie":"Safety",
 	        		"détail":[
 	        			"Création et rédaction des analyses de risque"
 	        		]
-	        	},
-	        	"5":{
+	        	},{
 	        		"categorie":"Informatique BE",
 	        		"détail":[
 	        			"Développement Excel.",
 	        			"Développement de macros de pilotage de Solidworks."
 	        		]
-	        	},	
-	        	"6":{
+	        	},{
 	        		"categorie":"Responsabilité informatique",
 	        		"détail":[
 	        			"Définition accès réseaux. (Active Directory)",
@@ -87,13 +79,13 @@
 
 	        		]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "sept. 2015 - oct. 2015",
 	      	"entreprise": "Etablissements Français du sang",
 	      	"emploi": "Technicien méthodes",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": [
+	      			{
 	          		"categorie": "",
 	          		"détail": [
 	            		"Déplacement sur sites pour inventorier les équipements de la région Nord (prélèvement, conservation, agitateurs, séparateurs de cellules,...)",
@@ -101,13 +93,14 @@
 	            		"Entretenir la base SAP"
 	          		]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "mai. 2015 - juil. 2015",
 	      	"entreprise": "DDIS Direct Drive Systems",
 	      	"emploi": "Dessinateur projeteur",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": 
+	      		[	
+	      			{
 		         	"categorie": "",
 		          	"détail": [
 		            	"Compilation et analyse du rex sur éolienne",
@@ -117,13 +110,14 @@
 		            	"Participation au montage"
 		          	]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "oct. 2011 - oct. 2014",
 	      	"entreprise": "Siemens pour AKKA Technologies",
 	      	"emploi": "Assistant technique ingénieur",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": 
+      			[	
+	      			{
 		         	"categorie": "",
 		          	"détail": [
 		            	"Optimisation des pas de maintenance de matériel roulant",
@@ -134,14 +128,16 @@
 		            	"Rédaction de procédures de montage/démontage et adaptations pour les rénovations « matériel roulant »",
 		            	"Etudes de solutions d'adaptation des équipements entre les différentes générations de matériel roulant"
 		          	]
-	        	}
-	      	}
+		        }
+	        ]
+	      	
 	    },{
 	      	"dates": "oct. 2010 - sept. 2011",
 	      	"entreprise": "Alstom pour NMJ Services",
 	      	"emploi": "Technicien ASL",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches":
+	      		[
+	      			{
 		         	"categorie": "",
 		          	"détail": [
 		            	"Analyse et mise à jour de la liste URL/URA Train projet MP05.",
@@ -152,13 +148,14 @@
 		            	"Rassemblement d’informations : MTBF, coûts de main d’œuvre, coûts des pièces..."
 		            ]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "janv. 2010 - avr. 2010",
 	      	"entreprise": "Alstom pour NMJ Services",
 	      	"emploi": "Rédacteur technique",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": 
+	      	[	
+	      		{
 		         	"categorie": "",
 		          	"détail": [
 		            	"Suivi de la documentation de maintenance pour finalisation sur le projet de métropolitain Lausanne.",
@@ -166,13 +163,14 @@
 		            	"Préparation de la livraison papier (impressions, mise en classeur, signatures des responsables)."
 		            ]
 	        	}
-	      	}
+	      	]
 	    },{
 	      	"dates": "janv. 2009 - juil. 2009",
 	      	"entreprise": "Alstom pour NMJ Services",
 	      	"emploi": "Rédacteur technique",
-	      	"tâches": {
-	        	"1": {
+	      	"tâches": 
+      		[
+      			{
 		         	"categorie": "",
 		          	"détail": [
 		            	"Suivi de la documentation de maintenance sur métros Istanbul et Budapest.",
@@ -180,7 +178,7 @@
 		            	"Rédaction du manuel Sécurité pour les opérations en anglais. Études des plans électriques, pneumatiques, hydrauliques pour recherche des points de coupure."
 		            ]
 	        	}
-	      	}
+	      	]
 	    }
    	],
    	"Formations":
