@@ -91,8 +91,6 @@ h3
 {
 	margin-top:10px;
 	border-top: 1px solid;
-	display:flex;
-	flex-direction : column;
 
 }
 
@@ -100,14 +98,14 @@ h3
 section
 {
 	display:flex;
-
+	flex-direction:row;
 }
 
 article
 {
 	display:flex;
 	margin-right: 5px;
-	flex-wrap;
+	flex-wrap:wrap;
 	
 
 }
