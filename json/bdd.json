@@ -1,0 +1,220 @@
+{
+  	"Expériences": [
+  		{
+	      	"dates": "oct. 2017 - aujourd'hui",
+	      	"entreprise": "Volevatch SA",
+	      	"emploi": "Référent en charge des certifications et de l'informatique",
+	      	"tâches": {
+	        	"1": {
+	          		"categorie": "Certifications",
+	          		"détail": [
+	            		"Obtention et entretien des certificats ACS pour les produits vendus en France.",
+	            		"Obtention de entretien des certificats WRAS pour une liste de produits destinés à l'Angleterre.",
+	            		"Renouvellement et entretien de certification NSF pour les Etats-Unis"
+	          		]
+	        	},
+	        	"2": {
+	          		"categorie": "Co-responsabilité de site",
+	         		"détail": [
+	            		"Co-responsabilité d'un site de 40 salarié.",
+	            		"Participation aux entretiens individuels, aux décisions d'investissements, aux entretiens d'embauche, aux gestions de conflits,..."
+	          		]
+	        	},
+	        	"3": {
+	        		"categorie" : "Informatique",
+	        		"détail":[
+	        			"Responsable parc informatique.",
+	        			"Développement de logiciels vba et php/mysql.",
+	        			"Pilote projet Erp Cegid Pmi. Développement d'outils pour passage de NAVISION à Cegid."
+	        		]
+	        	},
+	        	"4":{
+	        		"categorie":"Bureau d'étude",
+	        		"détail":[
+	        			"Participation à la Qualité. ",
+	        			"Participation aux études du bureau d'étude et à l'amélioration des produits.",
+	        			"Rédaction de notices techniques"
+	        		]
+	        	}
+	      	}
+	    },{
+	      	"dates": "avr. 2016 - oct. 2017",
+	      	"entreprise": "PDC Europe",
+	      	"emploi": "Responsable parc informatique et rédacteur technique",
+	      	"tâches": {
+	        	"1": {
+		          	"categorie": "Rédaction technique",
+		          	"détail": [
+		            	"Rédaction des manuels installation, utilisation, maintenance de manchonneuses automatiques (anglais/français)",
+		            	"Réalisation des catalogues illustrés via Solidworks.",
+		            	"Réalisation de support de formation"
+		          	]
+	        	},
+	        	"2": {
+		          	"categorie": "Dessin industriel",
+		          	"détail": [
+		            	"Adaptation de systèmes existants pour de nouvelles applications sous Solidworks. Création de modèles 3D, plans d'ensembles, de détails"
+		          	]
+		        },
+	        	"3": {
+	        		"categorie" : "SLI",
+	        		"détail":[
+	        			"Création et gestion des listes de pièces de rechange.",
+	        			"Création de kits de pièces (étude besoin/coût/délais)"]
+	        	},
+	        	"4":{
+	        		"categorie":"Safety",
+	        		"détail":[
+	        			"Création et rédaction des analyses de risque"
+	        		]
+	        	},
+	        	"5":{
+	        		"categorie":"Informatique BE",
+	        		"détail":[
+	        			"Développement Excel.",
+	        			"Développement de macros de pilotage de Solidworks."
+	        		]
+	        	},	
+	        	"6":{
+	        		"categorie":"Responsabilité informatique",
+	        		"détail":[
+	        			"Définition accès réseaux. (Active Directory)",
+	        			"Demande de prix. Passage de commandes après validation de la direction.",
+	        			"Entretiens et pilotage d'interventions par la société d'infogerance.",
+	        			"Installation de logiciels.",
+	        			"Mise à jour et optimisation de l'ERP SILOG",
+	        			"Utilisation de SQL Server"
+
+	        		]
+	        	}
+	      	}
+	    },{
+	      	"dates": "sept. 2015 - oct. 2015",
+	      	"entreprise": "Etablissements Français du sang",
+	      	"emploi": "Technicien méthodes",
+	      	"tâches": {
+	        	"1": {
+	          		"categorie": "",
+	          		"détail": [
+	            		"Déplacement sur sites pour inventorier les équipements de la région Nord (prélèvement, conservation, agitateurs, séparateurs de cellules,...)",
+	            		"Retrouver les manquants, étudier les écarts",
+	            		"Entretenir la base SAP"
+	          		]
+	        	}
+	      	}
+	    },{
+	      	"dates": "mai. 2015 - juil. 2015",
+	      	"entreprise": "DDIS Direct Drive Systems",
+	      	"emploi": "Dessinateur projeteur",
+	      	"tâches": {
+	        	"1": {
+		         	"categorie": "",
+		          	"détail": [
+		            	"Compilation et analyse du rex sur éolienne",
+		            	"Mise à jour des plans sous Autocad Inventor",
+		            	"Mise à jour et création des notices de montage",
+		            	"Vérification par calcul des assemblages.",
+		            	"Participation au montage"
+		          	]
+	        	}
+	      	}
+	    },{
+	      	"dates": "oct. 2011 - oct. 2014",
+	      	"entreprise": "Siemens pour AKKA Technologies",
+	      	"emploi": "Assistant technique ingénieur",
+	      	"tâches": {
+	        	"1": {
+		         	"categorie": "",
+		          	"détail": [
+		            	"Optimisation des pas de maintenance de matériel roulant",
+		            	"Suivi/coordination technique des rénovations du matériel roulant (communication et logistique)",
+		            	"Mise à jour et création des documentations de maintenance VAL Roissy suite à extension (équipements fixes, courants forts, courants faibles, voie, équipements d'atelier, portes palières…)",
+		            	"Création/suivi des circulaires techniques de maintenance",
+		            	"Développement d'un outil pour la création, le suivi et la diffusion des circulaires techniques de maintenance et d'exploitation (PHP/Mysql)",
+		            	"Rédaction de procédures de montage/démontage et adaptations pour les rénovations « matériel roulant »",
+		            	"Etudes de solutions d'adaptation des équipements entre les différentes générations de matériel roulant"
+		          	]
+	        	}
+	      	}
+	    },{
+	      	"dates": "oct. 2010 - sept. 2011",
+	      	"entreprise": "Alstom pour NMJ Services",
+	      	"emploi": "Technicien ASL",
+	      	"tâches": {
+	        	"1": {
+		         	"categorie": "",
+		          	"détail": [
+		            	"Analyse et mise à jour de la liste URL/URA Train projet MP05.",
+		            	"Vérification des mises à jour de plan entre deux dates.",
+		            	"Analyse si présence d’impacts sur la maintenance.",
+		            	"Développement d’outils à l’aide d’Excel (macros) ainsi que de Python (création de logiciel de comparaison) sur différents projets.",
+		            	"Travail sur Providor (logiciel interne Alstom) pour étudier le LCC",
+		            	"Rassemblement d’informations : MTBF, coûts de main d’œuvre, coûts des pièces..."
+		            ]
+	        	}
+	      	}
+	    },{
+	      	"dates": "janv. 2010 - avr. 2010",
+	      	"entreprise": "Alstom pour NMJ Services",
+	      	"emploi": "Rédacteur technique",
+	      	"tâches": {
+	        	"1": {
+		         	"categorie": "",
+		          	"détail": [
+		            	"Suivi de la documentation de maintenance pour finalisation sur le projet de métropolitain Lausanne.",
+		            	"Bilan des documentations manquantes et rédaction de celles-ci.",
+		            	"Préparation de la livraison papier (impressions, mise en classeur, signatures des responsables)."
+		            ]
+	        	}
+	      	}
+	    },{
+	      	"dates": "janv. 2009 - juil. 2009",
+	      	"entreprise": "Alstom pour NMJ Services",
+	      	"emploi": "Rédacteur technique",
+	      	"tâches": {
+	        	"1": {
+		         	"categorie": "",
+		          	"détail": [
+		            	"Suivi de la documentation de maintenance sur métros Istanbul et Budapest.",
+		            	"Participation à la rédaction des notices techniques pour la maintenance sur métros Istanbul et Budapest en anglais.",
+		            	"Rédaction du manuel Sécurité pour les opérations en anglais. Études des plans électriques, pneumatiques, hydrauliques pour recherche des points de coupure."
+		            ]
+	        	}
+	      	}
+	    }
+   	],
+   	"Formations":
+	[
+		{
+		"Diplôme":"BTS Assistant Technique Ingénieur",
+		"Ecole":"CFA ISEIA Mécavenir"
+		},{ 
+		"Diplôme":"CAP/BEP Structures Métalliques",
+		"Ecole":"Compagnons du Devoir du Tour de France"
+		},{
+		"Diplôme":"BAC STI Structures métalliques",
+		"Ecole":"Lycée Jean Jaurès"
+		}
+	],
+   	"Compétences":[
+   		{
+   			"categorie":"Bureautique",
+   			"competences":["Microsoft Word","Microsoft Excel","Gimp", "Scribus"]
+   		},
+   		{
+   			"categorie":"CAO",
+   			"competences":["Solidworks","Composer","Inventor","CATIA","Autocad"]
+   		},
+   		{
+   			"categorie":"Programmation",
+   			"competences":["VBA","Python","PHP","Mysql","SQL","LateX"]
+   		},
+   		{
+   			"categorie":"Divers",
+   			"competences":["Windows","Linux"]
+   		}
+   	],
+   	"Loisirs":[
+   		"Vitrail","Mosaïque","Violoncelle","Bricolage"
+   	]
+}
