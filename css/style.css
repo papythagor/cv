@@ -27,14 +27,13 @@ header
 
 #logo img
  {
- 	height:120px;
+ 	height:50px;
  }
 
 nav
 {
 	margin-right:5px;
 	display:flex;
-	flex-wrap:wrap;
 }
 
 nav ul
@@ -74,6 +73,7 @@ h1
 {
 	font-size:1.3em;
 	margin-bottom:5px;
+	width:100%;
 }
 
 h2
@@ -91,6 +91,8 @@ h3
 {
 	margin-top:10px;
 	border-top: 1px solid;
+	display:flex;
+	flex-direction: column;
 
 }
 
@@ -106,7 +108,7 @@ article
 	display:flex;
 	margin-right: 5px;
 	flex-wrap:wrap;
-	
+	min-width:300px;
 
 }
 
