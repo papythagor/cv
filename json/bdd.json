@@ -184,32 +184,87 @@
    	"Formations":
 	[
 		{
-		"Diplôme":"BTS Assistant Technique Ingénieur",
-		"Ecole":"CFA ISEIA Mécavenir"
-		},{ 
-		"Diplôme":"CAP/BEP Structures Métalliques",
-		"Ecole":"Compagnons du Devoir du Tour de France"
+			"Date":"2015",
+			"Diplôme":"Titre professionnel technicien d'études du bâtiment en dessin de projet",
+			"Ecole":"Ecole technique privée de Valenciennes"
 		},{
-		"Diplôme":"BAC STI Structures métalliques",
-		"Ecole":"Lycée Jean Jaurès"
+			"Date":"2003",
+			"Diplôme":"BTS Assistant Technique Ingénieur",
+			"Ecole":"CFA ISEIA Mécavenir"
+		},{ 
+			"Date":"2001",
+			"Diplôme":"CAP/BEP Structures Métalliques",
+			"Ecole":"Compagnons du Devoir du Tour de France"
+		},{
+			"Date":"1999",
+			"Diplôme":"BAC STI Structures métalliques",
+			"Ecole":"Lycée Jean Jaurès"
 		}
 	],
    	"Compétences":[
    		{
    			"categorie":"Bureautique",
-   			"competences":["Microsoft Word","Microsoft Excel","Gimp", "Scribus"]
+   			"liste":[
+   				{
+   					"competence":"Microsoft Word",
+   					"pourcent":7
+   				},{
+   					"competence":"Microsoft Excel",
+   					"pourcent":9
+   				},
+   				{
+   					"competence":"Gimp, Scribus",
+   					"pourcent":6
+   				}
+   			]
    		},
    		{
    			"categorie":"CAO",
-   			"competences":["Solidworks","Composer","Inventor","CATIA","Autocad"]
+   			"liste":[
+   				{
+   					"competence":"Solidworks",
+   					"pourcent":7
+   				},{
+   					"competence":"Composer",
+   					"pourcent":5
+   				},{
+   					"competence":"Inventor, CATIA, Autocad",
+   					"pourcent":4
+   				}
+   			]
    		},
    		{
    			"categorie":"Programmation",
-   			"competences":["VBA","Python","PHP","Mysql","SQL","LateX"]
+   			"liste":[
+   				{
+   					"competence":"VBA",
+   					"pourcent":7
+   				},{
+   					"competence":"Python",
+   					"pourcent":7
+   				},{
+   					"competence":"PHP et framework CodeIgniter",
+   					"pourcent":6
+   				},{
+   					"competence":"Mysql, SQL",
+   					"pourcent":4
+   				},{
+   					"competence":"Xml, Json",
+   					"pourcent":7
+   				},{
+   					"competence":"LateX",
+   					"pourcent":3
+   				}
+   			]
    		},
    		{
    			"categorie":"Divers",
-   			"competences":["Windows","Linux"]
+   			"liste":[
+   				{
+   					"competence":"Windows, Linux",
+   					"pourcent":7
+   				}
+   			]
    		}
    	],
    	"Loisirs":[

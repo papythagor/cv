@@ -17,8 +17,9 @@
 					<li><a href="#formations">Formations</a></li>
 					<li><a href="#competences">Compétences</a></li>
 				</ul>
+				
 			</nav>
-
+			
 		</header>
 		
 		<section>
@@ -29,36 +30,18 @@
 				<div id="experiences">
 					<h1>Expériences</h1>
 
+				</div>
+				<div id="formations">
+					<h1>Formations</h1>
 
+				</div>
 
+			</article>
+			<aside id="competences">
+				<h1>Compétences</h1>
 
 				
-				</div>
-				<h1 id="formations">Formation</h1>
-				<div class="formation">
-					<h2>CFAI ISEIA Mécavenir</h2>
-					<h3>BTS Assistant technique ingénieur</h3>
-				</div>
-				<div class="formation">
-					<h2>Compagnons du Devoir du Tour de France</h2>
-					<h3>CAP/BEP Structures métalliques</h3>
-				</div>
-				<div class="formation">
-					<h2>Lycée Jean Jaurès</h2>
-					<h3>BAC STI structures métalliques</h3>
-				</div>
-			</article>
-			<aside>
-				<h1 id="competences">Compétences</h1>
-				<div class="competence">
-					
-					<h2>Bureautique</h2>
-					<ul>
-						<li>Microsoft Word</li>
-						<li>Microsoft Excel</li>
-					</ul>
 
-				</div>
 			</aside>
 		</section>
 		<footer>
@@ -74,7 +57,7 @@
 		</footer>
 
 		<script>
-
+			//lecture du json
 			var lirecv='http://boutet-tech.fr/json/bdd.json';
 			var request = new XMLHttpRequest();
 			request.open('GET',lirecv,true);
@@ -82,7 +65,12 @@
 			request.send();
 			request.onload = function() {
 			  	var cv = request.response;
+			  	//fonction pour l'experience
 			  	remplirExperiences(cv);
+			  	//fonction pour les formations
+			  	remplirFormations(cv);
+			  	//fonction pour les compétences
+			  	remplirCompetences(cv);
 			}
 
 			function remplirExperiences(jsonObj) {
@@ -95,15 +83,18 @@
 				for(let i=0;i<experiences.length;i++){
 					const myExp=document.createElement('div')
 					myExp.className="experience";
+					const myH20=document.createElement('h2');
 					const myH21=document.createElement('h2');
 					const myH22=document.createElement('h2');
 
+					myH20.textContent='Période : ' + experiences[i].dates;
 					myH21.textContent='Société : ' + experiences[i].entreprise;
 					myH22.textContent='Emploi : ' + experiences[i].emploi;
 
 
 					const taches = experiences[i].tâches;
 
+					myExp.appendChild(myH20);
 					myExp.appendChild(myH21);
 					myExp.appendChild(myH22);
 
@@ -139,7 +130,70 @@
 
 				}
 
+			}
+			function remplirFormations(jsonObj) {
 
+				const formations = jsonObj['Formations'];
+				
+				var forElement=document.getElementById('formations');
+
+				
+				for(let i=0;i<formations.length;i++){
+					const myFor=document.createElement('div')
+					myFor.className="formation";
+					const myH2=document.createElement('h2');
+					const myH3=document.createElement('h3');
+
+					myH2.textContent=formations[i].Date + " - " + formations[i].Diplôme;
+					myH3.textContent=formations[i].Ecole;
+
+					myFor.appendChild(myH2);
+					myFor.appendChild(myH3);
+
+
+					forElement.appendChild(myFor);
+
+				}
+			}
+
+			function remplirCompetences(jsonObj) {
+
+				const competences = jsonObj['Compétences'];
+				
+				var comElement=document.getElementById('competences');
+
+				
+				for(let i=0;i<competences.length;i++){
+					const myCom=document.createElement('div')
+					myCom.className="competence";
+					const myH2=document.createElement('h2');
+
+					myH2.textContent=competences[i].categorie;
+					myCom.appendChild(myH2);
+					comElement.appendChild(myCom);
+
+
+					const myUl=document.createElement('ul');
+						
+					liste_competences=competences[i].liste;
+					
+					for(let k=0;k<liste_competences.length;k++){
+						const myli=document.createElement('li');
+						const mypr=document.createElement('span');
+
+						myli.textContent=liste_competences[k].competence;
+						mypr.textContent=" :" + liste_competences[k].pourcent * 10 + "%" ;
+
+
+						myUl.appendChild(myli);
+						myli.appendChild(mypr);
+					}
+
+					myCom.appendChild(myUl);
+
+					comElement.appendChild(myCom);
+
+				}
 
 			}
 
